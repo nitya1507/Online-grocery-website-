@@ -1,0 +1,998 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+}
+.clear:after{
+    clear: both;
+    
+}
+.clear:after, .clear:before{
+    content: '';
+    display:table;
+}
+.wrap{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+/*                                    logo starts                                          */
+.fruitlist img{
+   width: 100%;
+   }
+.logo{
+        padding: 15px 0;
+       
+        text-align: center;
+}
+.logo img{
+  
+   width: auto;
+
+}
+.icons{
+    float: left;
+padding-top: 30px;
+}
+.icons{
+        display: table;
+    width: auto;
+    float: left;
+        margin: 0 0;
+}
+.icons ul li {
+    float: left;
+        padding: 0 8px;}
+        .icons ul li  a{
+         font-size: 16px;
+         color: #000;
+        }
+        .icons ul li a:hover{
+         color: #9cbd63;
+        }
+.cart{
+    float: right;
+    padding-top: 30px;
+}
+.cart ul li{
+    float: left;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.cart ul li a{text-decoration: none;
+color: #000;
+}
+.cart ul li a:hover{
+    color: #82b22e;
+}
+.cart ul li img{
+    width: auto;
+}
+/*                                    logo ends                                         */
+/*                                  topbar starts                              */
+.topbar{
+    background: #82b22e;
+}
+ul{
+    list-style: none;
+    padding: 0 0;
+}
+nav li{
+    float: left;
+    padding: 15px 10px;
+}
+nav{
+    float:left;
+    margin-right: 30px;
+    
+}
+nav li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 14px;
+    
+}
+nav li a:hover{
+    color: #5b7e1f;
+    transition: 0.5s;
+}
+ #f_ind{
+      padding: 17px 50px;
+      background: #5b7e1f;
+      color: #fff;
+      border: none;
+     }
+      #search{
+       padding: 17px 40px;
+  background:  #5b7e1f;
+  border: none;
+  color: #fff;
+      }
+      form button a{
+       color: #fff;
+       
+      }
+      form button a:hover{
+       color:#82b22e;
+      }
+      ::placeholder{
+        color: #fff;
+        }
+        
+      
+       form input{
+       float: left;
+      }
+      /*                                       topbar ends                                      */
+      .banner img{
+        width: 100%;
+      }
+      .banner{
+        position: relative;
+        height: 360px;
+        overflow: hidden;
+      }
+     .banner .bannercontent{
+        position: absolute;
+        transform: translate(-20%, -50%);
+        left: 20%;
+        top: 50%;
+     }
+     .bannercontent h3{
+        color: #82b22e;
+        font-family: "Lucida Calligraphy",sans-serif;
+        font-size: 36px;
+        padding-left: 40px;
+     }
+     .bannercontent h1{
+        font-size: 60px;
+        font-weight: 500;
+        padding-bottom: 20px;
+     }
+     .bannercontent a{
+        background: #000;
+        color: #fff;
+        padding: 8px 25px;
+        text-decoration: none;
+        margin-left: 100px;
+     }
+     .bannercontent a:hover{
+        color: #82b22e;
+        background: #767676;
+        transition: 1s;
+     }
+     
+      .banner .owl-dots .owl-dot span{
+            background: #fff;
+            width: 10px;
+            height: 10px;
+            display: block;
+            border-radius: 50%;
+                margin: 0 5px;
+                
+      }
+       .banner .owl-dots {
+    
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50% ,0%);;
+     -webkit-transform:translate(-50%,0%);
+      -moz-transform:translate(-50%,0%);
+       -ms-transform:translate(-50%,0%);
+       }
+     
+      
+      .banner .owl-dots .active span{
+        background: #82b22e;
+        -webkit-transition: 0.5s;
+         -moz-transition: 0.5s;
+         -ms-transition: 0.5s;
+          transition: 0.5s;
+        
+      }
+     
+     .fruits{
+        margin-top: 10px;
+        height: 220px;
+        overflow: hidden;
+     }
+     .left{
+        float: left;
+        width: 49%;
+        position: relative;
+        margin-right: 2%;
+         
+     }
+     .left img{
+        width: 100%;
+     }
+     .fruits:nth-child(2n+2)
+     {
+        margin-right: 0;
+     }
+     .right{
+        float: right;
+        width: 49%;
+        position: relative;
+        
+     }
+     .right img{
+        width:100%;
+     }
+     .left .leftcontent{
+        position: absolute;
+         transform: translate(-20%, -50%);
+        left: 20%;
+        top: 50%;
+     }
+     .rightcontent{
+        position: absolute;
+         transform: translate(-20%, -50%);
+        left: 20%;
+        top: 50%;
+     }
+     .leftcontent h1 {
+        font-size: 36px;
+        font-weight: 500;
+        padding-bottom: 20px;
+     }
+     .leftcontent h1 a{
+      background: none;
+      margin-left: 0px;
+        padding: 0 0;
+     }
+     .leftcontent h1 a:hover{
+      background: none;
+     }
+     .rightcontent h1 a{
+      background: none;
+      margin-left: 0px;
+        padding: 0 0;
+     }
+     .rightcontent h1 a:hover{
+      background: none;
+     }
+    .leftcontent a{
+        background: #000;
+        color: #fff;
+        padding: 8px 25px;
+        text-decoration: none;
+        
+     
+     }
+     .leftcontent a:hover{
+        color: #82b22e;
+        background: #fff;
+        transition: 1s;
+     }
+     .rightcontent h1{
+        font-size: 36px;
+        font-weight: 500;
+        padding-bottom: 20px;
+     }
+     .rightcontent a{
+        background: #000;
+        color: #fff;
+        padding: 8px 25px;
+        text-decoration: none;
+        
+     }
+     .rightcontent a:hover{
+        color: #82b22e;
+        background: #fff;
+        transition: 1s;
+     }
+    .photo .fruitlist {
+    margin-right: 2.66%;
+    float: left;
+    width: 23%;
+}
+.photo .fruitlist :nth-child(4n+4){
+
+    margin-right:0;
+}
+
+.photo  .fruitlist ul li {
+    width: auto;
+    float: none;
+    text-align: center;
+    color: #000;
+    
+   font-family: 'Open Sans',sans-serif;
+   padding: 5px 0;
+   
+}
+.photo .fruitlist ul li  p{
+    color: #939393;
+      font-size: 18px;
+}
+.fruitlist{
+    width: 100%;
+    display: inline-block;
+}
+  
+    .list li{
+    float: left;
+    padding: 15px 10px;
+}
+
+.list{
+    float:left;
+    margin: 0 28%;
+     
+}
+.list li a{
+    color: #000;
+    text-decoration: none;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 14px;
+    
+}
+.list li a:hover{
+    color: #5b7e1f;
+    transition: 0.5s;
+}
+.catcontents h1{
+    text-align: center;
+    font-size: 30px;
+}
+.categories{
+    margin: 40px 0;
+}
+.cook{
+    height: 350px;
+    background: url(images/Untitled-18.jpg) no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: top;
+}
+.cook ul li{
+    width: 33.33%;
+    float: left;
+     padding: 75px 0;
+}
+.cook ul li ul li{
+    width: auto;
+    float: none;
+    text-align: center;
+    color: #fff;
+    
+   font-family: 'Open Sans',sans-serif;
+   padding: 5px 0;
+}
+.cook ul li ul li img{
+   border-radius: 50%;
+   width: auto;
+   border:solid 2px;
+}
+.cook ul li ul  a{
+    text-decoration: none;
+    
+}
+.cook ul li ul a:hover{
+    background: #82b22e;
+    color: #82b22e;
+}
+.photo2{
+    width: 100%;
+    display: inline-block;
+}
+.photo2 ul li{
+    margin-right: 2.66%;
+    float: left;
+    width: 23%;
+}
+.photo2 ul li:nth-child(4n+4){
+
+    margin-right:0;
+}
+
+.photo2 ul li ul li{
+    width: auto;
+    float: none;
+    text-align: center;
+    color: #000;
+    
+   font-family: 'Open Sans',sans-serif;
+   padding: 5px 0;
+   
+}
+.photo2 ul li ul li p{
+    color: #939393;
+      font-size: 18px;
+}
+.photo2 ul li ul li h6{
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+  .trending h3{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 40px;
+  }
+  .testimonials{
+    height: 370px;
+    background: url(images/Untitled-28.jpg) no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: top;
+}
+.testimonials h3{
+    color: #fff;
+    text-align: center;
+    padding-top:40px;
+    padding-bottom: 80px;
+    font-size: 30px;
+}
+
+.features{
+ width: 10%;
+ float: left;
+}
+.name{
+ width: 90%;
+ float: right;
+}
+.features ul li img{
+    width:auto;
+}
+.features ul li p{
+    float: none;
+    color: #fff;
+    margin: 0 30px;
+}
+
+.name p{
+    color: #45a00e;
+    font-size: 18px;
+}
+.name p span{
+    color: #fff;
+    font-size:14px;
+}
+ .blogphoto ul li{
+    margin-right: 2%;
+    float: left;
+    width: 32%;
+}
+.blogphoto ul li:nth-child(3n+3){
+
+    margin-right:0;
+}
+
+.blogphoto ul li ul li{
+    width: auto;
+    float: none;
+    text-align: center;
+    color: #000;
+    
+   font-family: 'Open Sans',sans-serif;
+   padding: 5px 0;
+   
+}
+.blogphoto ul li ul li p{
+    color: #939393;
+      font-size: 14px;
+}
+.blogphoto ul li ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+   .blogphoto ul li ul li a:hover{
+    color: #82b22e;
+    transition: 1s;
+   }
+   .blog h3{
+    font-size:30px;
+    text-align: center;
+    padding-top:  30px;
+    padding-bottom: 10px;
+   }
+   .blog{margin-bottom: 40px;}
+   .blogphoto ul li ul li span a{
+    text-decoration: none;
+    color: #82b22e;
+    font-size: 14px;
+   }
+   .blogphoto ul li ul li span a:hover{
+    color: #000;
+    transition: 1s;
+   }
+   .newsletter{
+    float: left;
+    width: 40%;
+     margin: 20px 0;
+    
+   }
+   .news{
+    background: #82b22e;
+     
+   }
+   .newsletter h3{
+    font-size: 28px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 600;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+       .newsleeter img{
+        background-image: url(images/Untitled-28.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40px;
+    float: left;
+    height: 40px;
+ 
+    width: 55px;
+       }
+   
+    
+      #e_mail{
+      padding: 15px 100px;
+      background: #fff;
+      margin-top: 20px;
+      margin-right: 10px;
+      
+     }
+     ::placeholder{
+        color: #000;
+     }
+      #arrow{
+       padding: 17px 35px;
+      margin-top: 20px;
+      color: #fff;
+   border: none;
+      background: #000;
+      }
+   
+   .email{
+    float: right;
+   }
+   
+   .columns{
+    padding-top: 40px;
+
+   }
+   .contacts{
+    margin-bottom: 30px;
+   }
+   .columns h5{
+    font-size: 18px;
+    padding-bottom: 20px;
+   }
+   .columns ul li {
+    font-size: 14px;
+   }
+  .columns1{
+    width:25%;
+    float: left;
+  }
+  .columns1 ul li{
+    padding-bottom:10px;
+  }
+   .columns2{
+    width:25%;
+    float: left;
+  }
+  .columns2 ul li{
+    padding-bottom:10px;
+  }
+  .columns3 ul li{
+    padding-bottom:10px;
+  }
+  
+   
+   .columns3{
+    width:25%;
+    float: left;
+  }
+   .columns4 {
+    width:25%;
+    float: left;
+  }
+  .columns4 ul li ul li img{
+    float:left;
+    padding-bottom: 15px;
+    padding-top:5px;
+  }
+   .columns4 ul li ul li p{
+     width: auto;
+    float: none;
+     padding-bottom: 15px;
+     
+    padding-left: 20px;
+     
+   }
+   .columns ul li ul li  p{
+    font-size: 14px;
+   }
+   .icons1{
+    float: left;
+padding-top: 10px;
+}
+.icons1{
+        display: table;
+    width: auto;
+    float: left;
+        margin: 0 0;
+}
+.icons1 ul li{
+    float: left;
+       padding-right: 10px;
+       }
+   .icons1 ul li img{
+     border-radius: 50%;
+     border: solid 2px;
+   }
+   
+   
+    @media(max-width:1169px){
+       .wrap{max-width: 960px}
+      .banner{
+       height: 315px;
+      }
+      
+      nav li a{
+    font-size: 12px;
+    
+}
+      #search{
+       padding: 17px 20px;
+      }
+      #f_ind{
+       padding: 17px 40px;
+      }
+      .categories{
+    margin: 10px 0;
+}
+    .list li{
+    padding: 10px 7px;
+}
+.list{
+    margin: 0 25%;
+     
+}  
+    .photo ul li{
+    margin-right: 2.66%;
+    width: 23%;
+}
+
+.photo ul li ul li img{
+ width: 100%;
+}
+      
+      .photo ul li{
+    margin-right: 2.66%;
+    float: left;
+    width: 23%;
+}
+.cook{
+       background-attachment: inherit;
+      }
+.cook ul li {
+  margin-right: 2.33%;
+    width: 31%;
+}
+.cook ul li:nth-child(3n+3){
+ margin-right: 0;
+}
+.cook ul li ul li p{
+ font-size: 14px;
+}
+      
+      .photo2 ul li ul li img{
+ width: 100%;
+}
+      
+      .testimonials{
+       background-attachment: inherit;
+      }
+      .blog ul li ul li img{
+       width: 100%;
+      }
+      
+      
+      
+      
+      
+      
+      
+    }
+   
+    @media(max-width:1023px){
+       .wrap{max-width: 740px}
+       
+        .banner{
+       height: 240px;
+      }
+      
+      nav li a{
+    font-size: 11px;
+    
+}
+      #search{
+       padding: 17px 10px;
+      }
+      #f_ind{
+       padding: 17px 20px;
+      }
+       .cart ul li a{
+        font-size: 12px;
+       }
+       
+       .cart ul li img {
+    width: 70%;
+    height: 70%;
+}
+       .cart ul li {
+    padding: 0 0px;}
+    .bannercontent h1 {
+    font-size: 48px;
+    padding-bottom: 10px;}
+       
+       .bannercontent h3 {
+    font-size: 24px;
+       }
+     .bannercontent a {
+    margin-left: 60px;
+}  
+    .leftcontent h1 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}   
+      .rightcontent h1 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.leftcontent a {
+    padding: 6px 15px;}
+       
+     .rightcontent a {
+    padding: 6px 15px;}
+         
+       .categories {
+    margin: 0 0;
+}
+       .left img {
+    height: 180px;
+}
+         .right img {
+    height: 180px;
+}
+       .list {
+    margin: 0 17%;
+}
+       .features ul li img {
+    margin-left: 70px;
+    margin-right: 30px;
+    height: 90px;
+}
+      .features ul li p { 
+       font-size: 14px;}
+       .newsletter img
+       {
+    height: 30px;
+}
+    .newsletter h3 {
+    font-size: 20px;} 
+  .newsletter {
+    width: 40%;
+  }
+     #e_mail {
+    padding: 9px 70px;
+     }
+     #arrow {
+    padding: 11px 20px;
+     }
+     .columns h5 {
+    font-size: 16px;
+     }
+  .columns ul li {
+    font-size: 12px;
+}   
+    .columns ul li ul li p {
+    font-size: 12px;
+} 
+     .icons1 ul li {
+    padding-right: 7px;
+}
+     .icons1 ul li img{
+      height: 30px;
+     }
+     
+     
+     
+  
+   
+    @media(max-width:767px){
+       .wrap{max-width: 430px}
+       .logo img {
+    height: 50px;
+}
+       
+       .logo ul li img{
+        height: 7px;
+       }
+       .cart ul li img{
+        height: 15px;
+        width: 15px;
+        padding-right: 6px;
+       }
+       
+       .cart {
+    padding-top: 20px;
+}
+       nav {
+    margin-right: 5px;
+}
+       nav li {
+    padding: 15px 6px;
+}
+       nav li a{
+    font-size: 10px;
+    
+}
+      #search{
+       padding: 10px 5px;
+      }
+      #f_ind{
+       padding: 10px 10px;
+      }
+        
+       form{
+        float: none;
+       margin: 0 auto;
+       margin-left: 25%;
+       }
+       
+        .banner{
+       height: 160px;
+      }
+        .bannercontent h1 {
+    font-size: 36px;
+    padding-bottom: 10px;}
+       
+       .bannercontent h3 {
+    font-size: 20px;
+    padding-left: 30px;
+       }
+     .bannercontent a {
+    margin-left: 40px;
+}  
+     .fruits{
+        height: 100%;;
+     }
+     .left{
+        float: none;
+        width: 100%;
+        position: relative;
+         
+     }
+     .right{
+        float: none;
+        width: 100%;
+        position: relative;
+        
+     }
+     
+     .leftcontent h1{
+        font-size: 30px;
+     }
+    .leftcontent a{
+        padding: 6px 15px;
+     
+     }
+     
+     .rightcontent h1{
+        font-size: 30px;
+     }
+     .rightcontent a{
+        padding: 6px 15px;
+     }
+       .list {
+    margin: 0 0;
+    margin-left: 4%;
+    
+}
+.list ul li  a{
+ font-size: 12px;
+}
+       .list li {
+    padding: 10px 4px;
+}
+.photo ul li ul li p {
+    font-size: 13px;
+}
+       .photo ul li ul li h6 {
+    font-size: 13px;
+    padding-bottom: 15px;
+}
+      .cook {
+    height: 280px;
+      }
+       
+       .cook ul li ul li p {
+    font-size: 11px;
+}
+       .cook ul li ul li img {
+        height: 60px;}
+       .trending h3 {
+    font-size: 20px;
+    padding-top: 0px;
+       }
+
+ .photo2 ul li ul li p {
+    font-size: 13px;
+}
+    .photo2 ul li ul li h6 {
+    font-size: 13px;
+    }
+    .features ul li img {
+    margin-left: 50px;
+    margin-right: 30px;
+    height: 60px;
+}
+       .features ul li p {
+    font-size: 11px;
+}
+     .testimonials h3 {
+    padding-bottom: 30px;
+     }
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+    }
+   
+    @media(max-width:479px){
+       .wrap{max-width: 300px}
+       
+    }
+     @media(max-width:300px){
+       .wrap{max-width: 300px}
+       
+    }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
